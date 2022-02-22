@@ -1,0 +1,134 @@
+.receptes-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffa111;
+}
+.receptes-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.receptes-header {
+  width: 100%;
+  height: 207px;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: relative;
+  max-width: 1110px;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.receptes-logo {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.receptes-image {
+  width: 186px;
+  height: 160px;
+  object-fit: cover;
+}
+.receptes-image1 {
+  width: 173px;
+  height: 158px;
+  object-fit: cover;
+}
+.receptes-image2 {
+  width: 100px;
+  height: 158px;
+  object-fit: cover;
+}
+.receptes-image3 {
+  width: 146px;
+  height: 158px;
+  object-fit: cover;
+}
+.receptes-image4 {
+  width: 148px;
+  height: 158px;
+  object-fit: cover;
+}
+.receptes-image5 {
+  width: 117px;
+  height: 160px;
+  object-fit: cover;
+}
+.receptes-image6 {
+  width: 136px;
+  height: 159px;
+  object-fit: cover;
+}
+.receptes-container2 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.receptes-image7 {
+  width: 203px;
+  height: 160px;
+  object-fit: cover;
+}
+.receptes-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.receptes-menu {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+}
+.receptes-text {
+  font-size: 50px;
+  max-width: 500px;
+  font-style: normal;
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.receptes-text1 {
+  font-size: 35px;
+  max-width: 500px;
+  font-style: normal;
+  text-align: center;
+  font-family: Courier New;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+@media(max-width: 991px) {
+  .receptes-container2 {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .receptes-burger-menu {
+    display: block;
+  }
+}
+@media(max-width: 479px) {
+  .receptes-container2 {
+    display: none;
+  }
+  .receptes-text {
+    text-align: center;
+  }
+  .receptes-text1 {
+    text-align: center;
+  }
+}
